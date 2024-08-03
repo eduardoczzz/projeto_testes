@@ -61,7 +61,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form id="update">
+          <form id="updateUser">
             <input type="hidden" name="id" id="id" value="">
             <input type="hidden" name="trid" id="trid" value="">
             <div class="mb-3 row">  
@@ -83,15 +83,15 @@
               </div>
             </div>
             <div class="mb-3 row">
-              <label for="notaFiscalField" class="col-md-3 form-label">Nota Fiscal</label>
+              <label for="nota_fiscalField" class="col-md-3 form-label">Nota Fiscal</label>
               <div class="col-md-9">
-                <input type="text" class="form-control" id="notaFiscalField" name="nota_fiscal">
+                <input type="text" class="form-control" id="nota_fiscalField" name="nota_fiscal">
               </div>
             </div>
             <div class="mb-3 row">
-              <label for="estadoUsoField" class="col-md-3 form-label">Estado de Uso</label>
+              <label for="estado_usoField" class="col-md-3 form-label">Estado de Uso</label>
               <div class="col-md-9">
-                <input type="text" class="form-control" id="estadoUsoField" name="estado_uso">
+                <input type="text" class="form-control" id="estado_usoField" name="estado_uso">
               </div>
             </div>
             <div class="text-center">

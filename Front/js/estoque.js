@@ -20,7 +20,7 @@ $(document).ready(function() {
   });
 });
 
-$(document).on('submit', '#update', function(e) {
+$(document).on('submit', '#updateUser', function(e) {
   e.preventDefault();
 
   var produto = $('#produtoField').val();
@@ -66,7 +66,6 @@ $('#tabela').on('click', '.editbtn ', function(event) {
   var trid = $(this).closest('tr').attr('id');
   var id = $(this).data('id');
   $('#exampleModal').modal('show');
-
   $.ajax({
     url: "../back/obter_dados.php",
     data: {
